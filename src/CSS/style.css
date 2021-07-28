@@ -1,0 +1,12 @@
+.posts{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.post{
+    width: 500px;
+    text-align: center;
+    margin-top: 20px;
+
+}

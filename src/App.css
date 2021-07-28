@@ -1,0 +1,24 @@
+.App {
+  text-align: center;
+}
+
+
+
+.post{
+  width: 500px;
+  margin-top: 40px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+}
+
+.main{
+  margin-top: 30px;
+}
+
+.links{
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 15px 20px;
+  border: 2px solid black;
+}
