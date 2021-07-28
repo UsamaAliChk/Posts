@@ -31,10 +31,10 @@ export default function CreatePost() {
     return (
         <div className="createPost">
             <div>
-                <input placeholder={"Post Title"} placeholder="Title Of Post" value={postTitle} onChange={e=>setpostTitle(e.target.value)} style={{width:'500px',height:'50px'}}/>
+                <input placeholder={"Post Title"} placeholder="Title Of Post" value={postTitle} onChange={e=>setpostTitle(e.target.value)} className="textBox"/>
             </div>
             <div>
-            <textarea placeholder='Body Of Post' value={postBody} onChange={e=>setpostBody(e.target.value)} rows="6" style={{width:'500px',marginTop:'10px'}}></textarea>
+            <textarea placeholder='Body Of Post' value={postBody} onChange={e=>setpostBody(e.target.value)} rows="6" className="textArea" ></textarea>
             </div>
             <button onClick={createPost}>Create Post</button>
             {

@@ -18,6 +18,17 @@
 }
 
 
+.textBox{
+  width: 500px;
+  height: 50px;
+
+}
+
+.textArea{
+  width: 500px;
+  margin-top: 10px;
+}
+
 .main{
   margin-top: 30px;
 }

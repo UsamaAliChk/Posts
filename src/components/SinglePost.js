@@ -13,7 +13,7 @@ export default function SinglePost() {
         setloading(true);
         axios.get(`https://jsonplaceholder.typicode.com/posts/${id}`)
         .then(res=>{setpost(res.data);setloading(false)})
-        .catch(err=>{alert('Record Not Found')});
+        .catch(err=>{alert('Record Not Found');setloading(false)});
     }
 
 
