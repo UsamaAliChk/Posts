@@ -5,6 +5,7 @@ export default function ViewPost({post}) {
         <div>
             <div class="card post">
                 <div class="card-body">
+                    <p>{post.id}</p>
                     <h5 class="card-title">{post.title}</h5>
                     <p class="card-text">{post.body}</p>
                 </div>
